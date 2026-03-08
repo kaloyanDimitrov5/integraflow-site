@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
+/* your custom styles */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: 8 10 18;
+  --fg: 226 232 240;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+  height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.35);
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-20%); }
+  100% { transform: translateX(20%); }
+}
+
+.hero-particles {
+  mask-image: radial-gradient(65% 60% at 55% 35%, black, transparent 62%);
+  -webkit-mask-image: radial-gradient(65% 60% at 55% 35%, black, transparent 62%);
 }

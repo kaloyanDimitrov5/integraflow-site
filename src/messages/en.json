@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products"
+  },
+  "hero": {
+    "titleLine1": "Touch the future of",
+    "titleLine2": "screens.",
+    "subtitle": "Transparent LED displays for storefronts, events and architecture—high brightness, lightweight modules, clean installation and real impact.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "See products",
+    "stats": {
+      "workflows": "Transparency",
+      "hours": "Brightness (nits)",
+      "systems": "Projects delivered",
+      "note": "Typical production ranges"
+    }
+  },
+  "roi": {
+    "kicker": "Why Inleddo",
+    "title": "Transparent LED screens that upgrade your space",
+    "subtitle": "High-brightness visuals with real transparency—ideal for storefronts, facades, showrooms and events.",
+    "noteStrong": "Typical ROI:",
+    "note": "depends on size, placement and content strategy.",
+    "panel": {
+      "title": "Why are our LED screens the best choice for your business?",
+      "p1": "Certified, innovative and high-quality LED displays that stand out from the competition.",
+      "p2": "Our solutions are designed around excellence, durability and customer needs—the three pillars that set us apart.",
+      "p3": "Your investment budget will find the best return with us."
+    },
+    "cards": {
+      "brightness": {
+        "title": "Brightness",
+        "value": "3000–6000+ nits",
+        "desc": "Daylight visibility—ideal for storefronts, facades and high-ambient-light environments."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "value": "70–95%",
+        "desc": "Keep natural light and visibility through glass—without closing the space."
+      },
+      "efficiency": {
+        "title": "Energy efficiency",
+        "value": "Lower power usage",
+        "desc": "Optimized consumption and long module lifespan for strong ROI."
+      },
+      "installation": {
+        "title": "Installation & service",
+        "value": "Modular system",
+        "desc": "Fast installation, easy maintenance and flexible sizing for any project."
+      }
+    },
+    "footnote": "Specs are typical ranges. Final numbers depend on model and configuration.",
+    "cta": {
+      "title": "Want a recommendation for your location?",
+      "subtitle": "Tell us your size, distance and use case—we’ll propose a configuration.",
+      "button": "Request a quote"
+    }
+  },
+  "solutions": {
+    "kicker": "Why Inleddo",
+    "title": "Transparent LED screens built for impact",
+    "subtitle": "High brightness, true color, long lifetime and flexible sizing—designed for storefronts, venues and outdoor installs.",
+    "learnMore": "Explore",
+    "ai": {
+      "tag": "Image quality",
+      "title": "Sharp resolution & true colors",
+      "desc": "Wide viewing angles and calibrated color for ads, art and live events—crisp even in complex lighting.",
+      "example": "170° viewing • pro calibration"
+    },
+    "automation": {
+      "tag": "Brightness",
+      "title": "Visible even in daylight",
+      "desc": "Automatic brightness control delivers strong visibility in sun and high-ambient environments.",
+      "example": "Up to 8000 nits"
+    },
+    "integrations": {
+      "tag": "Reliability",
+      "title": "Built for 10+ years",
+      "desc": "IP-rated materials, smart cooling and modular service so the system stays running with minimal downtime.",
+      "example": "100,000+ hours"
+    },
+    "dashboards": {
+      "tag": "Flexibility",
+      "title": "Any size, shape or setup",
+      "desc": "Custom dimensions and creative forms—curved, cylindrical or large video walls—tailored to your project.",
+      "example": "Custom modules & layouts"
+    },
+    "software": {
+      "tag": "Efficiency",
+      "title": "Lower power & maintenance",
+      "desc": "Energy-efficient LEDs and modular replacement reduce operating cost and service time.",
+      "example": "Up to 40% less power"
+    },
+    "web": {
+      "tag": "Support",
+      "title": "Installation + 24/7 service",
+      "desc": "Consultation, professional installation and fast response support—long-term partner, not just a seller.",
+      "example": "5-year warranty"
+    }
+  },
+  "products": {
+    "kicker": "Products",
+    "title": "Transparent LED screens & smart films",
+    "subtitle": "Premium transparent LED solutions for storefronts, events and architecture—bright, lightweight and modular.",
+    "cta": "View details",
+    "ctaHint": "Specs, use cases & options",
+    "items": {
+      "transparentFilm": {
+        "tag": "Transparent film",
+        "title": "Transparent LED Film",
+        "desc": "Apply directly to glass for high-impact visuals without blocking daylight."
+      },
+      "holographic": {
+        "tag": "Holographic",
+        "title": "Holographic LED Screen",
+        "desc": "A striking floating-effect display for premium retail and events."
+      },
+      "transparentScreen": {
+        "tag": "Transparent screen",
+        "title": "Transparent LED Screen",
+        "desc": "High brightness with real transparency—ideal for shop windows and facades."
+      },
+      "smartFilm": {
+        "tag": "Smart film",
+        "title": "Smart Dimming Film",
+        "desc": "Instant privacy + modern glass experience—ON/OFF transparency with one touch."
+      },
+      "indoor": {
+        "tag": "Indoor",
+        "title": "Indoor LED Screens",
+        "desc": "Fine pixel pitch and accurate color for showrooms, stages and conference halls."
+      },
+      "outdoor": {
+        "tag": "Outdoor",
+        "title": "Outdoor LED Screens",
+        "desc": "Weather-ready high-brightness displays built for 24/7 visibility."
+      },
+      "rentalIndoor": {
+        "tag": "Rental",
+        "title": "Rental LED Screens (Indoor)",
+        "desc": "Fast install, lightweight modules and clean visuals for events."
+      },
+      "rentalOutdoor": {
+        "tag": "Rental",
+        "title": "Rental LED Screens (Outdoor)",
+        "desc": "Stage-grade brightness and rugged build for outdoor productions."
+      }
+    }
+  }
+}

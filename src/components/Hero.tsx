@@ -39,7 +39,7 @@ export default function Hero() {
   return (
     <section className="relative mx-auto flex min-h-[78vh] max-w-6xl flex-col justify-center overflow-hidden px-5 pt-24 pb-10 md:min-h-[82vh] md:pt-28 md:pb-12">
       {/* background particle text */}
-      <HeroTextParticles text="INLEDDO" fontSize={220} density={4} strength={0.06} />
+      <HeroTextParticles text="INLEDDO" fontSize={160} density={5} strength={0.08} />
 
       <motion.div
         initial={{opacity: 0, y: 18}}

@@ -1,9 +1,9 @@
 'use client';
 
 import ProductGallery from './ProductGallery';
-import type {Product} from '@/data/products';
+import type {LocalizedProduct} from '@/data/localizeProduct';
 
-export default function ProductDetail({product}: {product: Product}) {
+export default function ProductDetail({product}: {product: LocalizedProduct}) {
   return (
     <section className="relative mx-auto max-w-6xl px-5 pt-28 pb-24">
       {/* top header */}

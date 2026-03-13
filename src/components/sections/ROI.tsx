@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import Glow from "@/components/Glow";
+
 
 const container = {
     hidden: { opacity: 0 },
@@ -41,11 +41,12 @@ export default function ROI() {
     ];
 
     return (
+
         <section
             id="roi"
             className="relative mx-auto max-w-6xl overflow-hidden px-5 py-24"
         >
-            <Glow className="opacity-80" />
+            {/* <Glow className="opacity-80" /> */}
 
             {/* WHY US editorial block (left aligned, no ugly banner) */}
             <div className="relative mt-14 max-w-4xl">
@@ -65,9 +66,9 @@ export default function ROI() {
                 </div>
 
                 {/* soft background glow behind text */}
-                <div className="pointer-events-none absolute -inset-24 -z-10 opacity-40">
+                {/* <div className="pointer-events-none absolute -inset-24 -z-10 opacity-40">
                     <div className="h-full w-full bg-[radial-gradient(circle_at_20%_30%,rgba(34,211,238,.18),transparent_60%),radial-gradient(circle_at_60%_80%,rgba(99,102,241,.16),transparent_65%)]" />
-                </div>
+                </div> */}
             </div>
 
             {/* cards grid */}

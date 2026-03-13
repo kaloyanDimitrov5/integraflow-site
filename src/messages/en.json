@@ -150,5 +150,24 @@
         "desc": "Stage-grade brightness and rugged build for outdoor productions."
       }
     }
+  },
+  "footer": {
+    "description": "Premium transparent LED displays for storefronts, events and architectural spaces—designed to deliver visibility, elegance and real visual impact.",
+    "navigationTitle": "Navigation",
+    "ctaTitle": "Start a project",
+    "ctaText": "Tell us about your location, dimensions and goals. We’ll recommend the right LED solution for your business.",
+    "ctaButton": "Request a quote",
+    "copyright": "© 2026 INLEDDO. All rights reserved.",
+    "nav": {
+      "products": "Products",
+      "solutions": "Solutions",
+      "roi": "ROI",
+      "caseStudies": "Case Studies",
+      "about": "About"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
   }
 }

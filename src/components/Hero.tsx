@@ -125,7 +125,7 @@ export default function Hero() {
           </motion.div>
         ))}
       </div>
-      <Glow className="opacity-80" />
+      {/* <Glow className="opacity-80" /> */}
     </section>
 
   );

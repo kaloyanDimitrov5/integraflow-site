@@ -98,7 +98,7 @@ export default function ProductsGrid() {
 
   return (
     <section className="relative mx-auto max-w-6xl overflow-hidden px-5 pt-28 pb-24">
-      <Glow className="opacity-70" />
+      {/* <Glow className="opacity-70" /> */}
 
       <div className="relative z-10">
         <p className="text-sm font-semibold tracking-wide text-white/60">{t('kicker')}</p>

@@ -2,6 +2,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, setRequestLocale} from 'next-intl/server';
 import Providers from '@/components/Providers';
 import Navbar from '@/components/Navbar';
+import LedPixelBackground from '@/components/sections/LedPixelBackground';
 
 export default async function LocaleLayout({
   children,
@@ -18,6 +19,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <Providers>
+        <LedPixelBackground />
         <Navbar />
         {children}
       </Providers>

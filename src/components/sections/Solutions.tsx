@@ -31,7 +31,7 @@ export default function Solutions() {
             id="solutions"
             className="relative mx-auto max-w-6xl overflow-hidden px-5 py-24"
         >
-            <Glow className="opacity-60" />
+            {/* <Glow className="opacity-60" /> */}
 
             <div className="max-w-2xl">
                 <p className="text-sm font-semibold tracking-wide text-white/60">{t("kicker")}</p>

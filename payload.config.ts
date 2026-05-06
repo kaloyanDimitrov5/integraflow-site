@@ -4,9 +4,17 @@ import { postgresAdapter } from '@payloadcms/db-postgres'
 import { Products } from './src/collections/Products'
 import { Media } from './src/collections/Media'
 
+const serverURL = (process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000').replace(/\/$/, '')
+
 export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || 'change-me',
-  serverURL: (process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000').replace(/\/$/, ''),
+  serverURL,
+
+  csrf: [
+    serverURL,
+    'http://localhost:3000',
+    'http://localhost:3001',
+  ],
 
   collections: [Media, Products],
 

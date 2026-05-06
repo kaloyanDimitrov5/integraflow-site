@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 export default function Page() {
   return (
     <main className="relative z-10">
-      <BackgroundParticles />
+      {/* <BackgroundParticles /> */}
       <Hero />
       <ROI />
       <Solutions />

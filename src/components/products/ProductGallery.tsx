@@ -3,8 +3,16 @@
 import Image from 'next/image';
 import {useMemo, useState} from 'react';
 
-export default function ProductGallery({images, title}: {images: string[]; title: string}) {
-  const safeImages = useMemo(() => images?.filter(Boolean) ?? [], [images]);
+type GalleryImage = {url: string; alt: string};
+
+export default function ProductGallery({
+  images,
+  title,
+}: {
+  images: GalleryImage[];
+  title: string;
+}) {
+  const safeImages = useMemo(() => images?.filter((img) => img.url) ?? [], [images]);
   const [idx, setIdx] = useState(0);
 
   const hasMany = safeImages.length > 1;
@@ -22,8 +30,8 @@ export default function ProductGallery({images, title}: {images: string[]; title
 
         <div className="relative aspect-[16/10] w-full">
           <Image
-            src={active}
-            alt={title}
+            src={active.url}
+            alt={active.alt || title}
             fill
             priority
             className="object-cover"
@@ -55,18 +63,26 @@ export default function ProductGallery({images, title}: {images: string[]; title
 
       {hasMany && (
         <div className="mt-4 grid grid-cols-5 gap-2">
-          {safeImages.slice(0, 10).map((src, i) => (
+          {safeImages.slice(0, 10).map((img, i) => (
             <button
-              key={src + i}
+              key={img.url + i}
               type="button"
               onClick={() => setIdx(i)}
               className={[
                 'relative aspect-[16/10] overflow-hidden rounded-2xl border bg-white/5',
-                i === idx ? 'border-cyan-300/40 ring-1 ring-cyan-300/30' : 'border-white/10 hover:border-white/20'
+                i === idx
+                  ? 'border-cyan-300/40 ring-1 ring-cyan-300/30'
+                  : 'border-white/10 hover:border-white/20',
               ].join(' ')}
               aria-label={`Open image ${i + 1}`}
             >
-              <Image src={src} alt={`${title} thumbnail ${i + 1}`} fill className="object-cover" sizes="120px" />
+              <Image
+                src={img.url}
+                alt={img.alt || `${title} thumbnail ${i + 1}`}
+                fill
+                className="object-cover"
+                sizes="120px"
+              />
             </button>
           ))}
         </div>

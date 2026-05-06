@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import ProductGallery from './ProductGallery';
 import type {LocalizedProduct} from '@/data/localizeProduct';
 
@@ -51,12 +52,12 @@ export default function ProductDetail({product}: {product: LocalizedProduct}) {
               >
                 Заяви оферта
               </a>
-              <a
+              <Link
                 href="/products"
                 className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white"
               >
                 Всички продукти
-              </a>
+              </Link>
             </div>
           </div>
 

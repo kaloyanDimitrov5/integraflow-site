@@ -6,17 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed": "curl -s \"http://localhost:3000/api/seed?secret=$(grep PAYLOAD_SECRET .env.local | cut -d= -f2)\"",
+    "generate:types": "payload generate:types"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "^3.79.0",
+    "@payloadcms/next": "^3.79.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
     "framer-motion": "^12.34.3",
     "lenis": "^1.3.17",
-    "next": "16.1.6",
+    "next": "^15.4.11",
     "next-intl": "^4.8.3",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "payload": "^3.79.0",
+    "pg": "^8.20.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.1",
